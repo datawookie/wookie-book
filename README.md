@@ -1,5 +1,7 @@
 # Wookie-book Format
 
+Derived from [Nicole Rennie's extension](https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/). Had to make some tweaks to work for books.
+
 ## Installing
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
@@ -29,4 +31,3 @@ If you want to update the LaTeX version of this template to use a different colo
 ## Example
 
 Here is the source code for a minimal sample document: [example.qmd](example.qmd).
-
