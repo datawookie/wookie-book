@@ -6,6 +6,7 @@ contributes:
   formats:
     pdf:
       documentclass: book
+      keep-tex: true
       toc: true
       include-in-header: header.tex
       include-in-footer: footer.tex
