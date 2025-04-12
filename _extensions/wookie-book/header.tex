@@ -45,6 +45,18 @@
 \titleformat{\subsection}
   {\sffamily\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
 
+\makeatletter
+\renewcommand{\maketitle}{%
+    \bgroup\setlength{\parindent}{0pt}
+    \begin{flushleft}
+        % Quarto injects code which appends the subtitle after the title.
+        {\sffamily\huge\textbf{\@title}}
+        \@author
+    \end{flushleft}
+    \egroup
+}
+\makeatother
+
 \setsansfont{Ubuntu}[
     Path=_extensions/datawookie/wookie-book/fonts/,
     Scale=0.9,
