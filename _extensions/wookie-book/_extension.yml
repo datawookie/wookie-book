@@ -8,3 +8,7 @@ contributes:
       toc: true
       include-in-header: header.tex
       include-in-footer: footer.tex
+      include-before-body: pagestyle.tex
+      code-block-bg: light
+      linkcolor: highlight
+      urlcolor: highlight
