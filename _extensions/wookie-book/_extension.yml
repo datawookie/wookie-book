@@ -7,4 +7,4 @@ contributes:
     pdf:
       toc: true
       include-in-header: header.tex
-
+      include-in-footer: footer.tex
