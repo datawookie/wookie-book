@@ -13,4 +13,3 @@ date: last-modified
 ## More Information
 
 You can learn more about controlling the appearance of PDF output here: <https://quarto.org/docs/output-formats/pdf-basics.html>
-
